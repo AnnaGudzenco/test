@@ -1,0 +1,24 @@
+$violet-color-light: #8d81ac;
+$violet-color-dark: #635c73;
+$violet-color-for-reviews: #a291a5;
+$violet-bg-reviews: #645766;
+$bg-for-advantages: #f4f4f4;
+$header-bc-color: #27262a;
+$white: #ffffff;
+$text-color-light: #848e97;
+$text-color-dark: #323232;
+$violet-color-for-prices: #463048;
+
+.container {
+    min-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    @media (min-width: 481px) {
+        max-width: 992px;
+    }
+    @media (min-width: 993px) {
+        max-width: 1200px;
+    }
+}
